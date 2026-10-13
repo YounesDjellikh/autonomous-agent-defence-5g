@@ -1,0 +1,17 @@
+# Agent stack — pinned loosely for now, freeze once Phase 3 stabilises
+langchain>=0.2,<0.4
+langchain-community>=0.2,<0.4
+langchain-ollama>=0.1
+openai>=1.40                    # OpenAI-compatible client for the :11434/v1 path (model-agnostic)
+chromadb>=0.5
+sentence-transformers>=3.0      # embeddings for the RAG corpus
+ollama>=0.3                     # python client
+pydantic>=2.6
+pandas>=2.2
+numpy>=1.26
+scapy>=2.5                      # pcap parsing / NetFlow summarisation
+rich>=13                        # readable agent + audit console output
+python-dotenv>=1.0
+# evaluation
+scikit-learn>=1.4               # precision/recall/F1
+matplotlib>=3.8                 # figures
